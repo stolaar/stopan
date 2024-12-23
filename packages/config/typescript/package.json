@@ -1,0 +1,16 @@
+{
+  "name": "@repo/typescript-config",
+  "version": "0.0.0",
+  "private": true,
+  "main": ".tsconfig.base.json",
+  "exports": {
+    ".": "./tsconfig.base.json",
+    "./nest": "./tsconfig.nest.json",
+    "./vue": "./tsconfig.vue.json"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
+

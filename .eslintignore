@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Build output directories
+dist/
+build/
+
+# Dependency directories
+.vscode/
+.idea/
+
+# Configuration and environment files
+*.config.js
+*.config.cjs
+*.config.ts
+
+# Log files
+*.log
+
+# TypeScript declaration files
+*.d.ts
+
+# Public/static assets for web apps
+public/
+static/
+
+# Lint cache
+.eslintcache
+
+# Generated files for Vue or other build tools
+coverage/
+
