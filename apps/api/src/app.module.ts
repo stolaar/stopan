@@ -1,8 +1,13 @@
 import { Module } from '@nestjs/common'
-import { ConfigModule, ItemsModule, ShoppingCartModule } from './modules'
+import {
+  TagsModule,
+  VendorsModule,
+  ConfigModule,
+  ItemsModule,
+  ShoppingCartModule,
+} from './modules'
 import { MongooseModule } from '@nestjs/mongoose'
 import { ConfigService } from '@nestjs/config'
-import { TagsModule } from './modules/tags'
 
 @Module({
   imports: [
@@ -15,6 +20,7 @@ import { TagsModule } from './modules/tags'
       }),
     }),
     TagsModule,
+    VendorsModule,
     ItemsModule,
     ShoppingCartModule,
   ],

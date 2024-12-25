@@ -1,3 +1,5 @@
 export * from './config'
 export * from './items'
 export * from './shopping-carts'
+export * from './tags'
+export * from './vendors'
